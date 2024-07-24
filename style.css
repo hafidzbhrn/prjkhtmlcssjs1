@@ -1,0 +1,61 @@
+:root {
+    box-sizing: border-box;
+}
+
+html, body, * {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    height: 100vh;
+}
+
+.summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 3px solid blanchedalmond;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.option {
+    width: 30%;
+    margin: 10px 15px;
+    padding: 25px;
+    text-align: center;
+    font-size: 40px;
+    
+    background-color: bisque;
+}
+
+.option:hover {
+    cursor: pointer;
+    background-color: burlywood;
+    transform: scale(105%);
+    
+}
+
+.WM {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.WM:hover {
+    cursor: pointer;
+}
+
